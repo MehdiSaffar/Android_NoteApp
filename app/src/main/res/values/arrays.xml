@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_item_note_long_click_actions">
+        <item>Delete</item>
+        <item>Show info</item>
+    </string-array>
+</resources>

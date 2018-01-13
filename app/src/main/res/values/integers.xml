@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TODO Set max length for title-->
+    <integer name="note_short_content_max_length">50</integer>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        tools:context="com.example.mehdisaffar.testproject.NoteActivity">
+
+        <EditText
+            android:id="@+id/detail_note_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="email|phone|web"
+            android:hint="@string/detail_note_title_hint"
+            android:inputType="textMultiLine|textCapSentences|textAutoComplete|textAutoCorrect"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            tools:text="@string/sample_note_title" />
+
+        <EditText
+            android:id="@+id/detail_note_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:autoLink="email|phone|web"
+            android:gravity="top|start"
+            android:hint="@string/detail_note_content_hint"
+            android:inputType="textCapSentences|textMultiLine|textAutoComplete|textAutoCorrect"
+            android:scrollbars="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_note_title"
+            tools:text="@string/sample_detail_note_content" />
+    </android.support.constraint.ConstraintLayout>
+</layout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_activity_note_info"
+        android:contentDescription="@string/content_description_info_note"
+        android:icon="@drawable/ic_info_outline_white_24dp"
+        android:orderInCategory="1"
+        android:title="@string/menu_activity_note_info_title"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_activity_note_delete"
+        android:contentDescription="@string/content_description_delete_note"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:orderInCategory="2"
+        android:title="@string/menu_activity_note_delete_note_title"
+        app:showAsAction="ifRoom" />
+</menu>
